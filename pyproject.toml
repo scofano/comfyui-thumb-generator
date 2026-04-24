@@ -1,0 +1,13 @@
+# pyproject.toml
+[project]
+name = "comfyui-thumb-generator"
+description = "ComfyUI custom node that triggers WinThumbsPreloader every N workflow runs to generate Windows thumbnails for output folders."
+version = "1.0.0"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/scofano/comfyui-thumb-generator"
+
+[tool.comfy]
+PublisherId = "dansco"
+DisplayName = "Thumbnail Cycle Generator"
